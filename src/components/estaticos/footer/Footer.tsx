@@ -15,13 +15,13 @@ function Footer() {
                             <Typography variant="h5" align="center" gutterBottom className='testos'>Siga-nos nas redes sociais </Typography>
                         </Box>
                         <Box display="flex" alignItems="center" justifyContent="center">
-                            <a href="https://www.facebook.com/generationbrasil" target="_blank">
+                            <a href="https://www.facebook.com/mayara.talyta/" target="_blank">
                                 <FacebookIcon  className='redes' />
                             </a>
-                            <a href="https://www.instagram.com/generationbrasil/" target="_blank">
+                            <a href="https://www.instagram.com/mayaratalyta/" target="_blank">
                                 <InstagramIcon className='redes' />
                             </a>
-                            <a href="https://www.linkedin.com/school/generationbrasil/" target="_blank">
+                            <a href="https://www.linkedin.com/in/mayaraalmeida24/" target="_blank">
                                 <LinkedInIcon className='redes' />
                             </a>
                         </Box>

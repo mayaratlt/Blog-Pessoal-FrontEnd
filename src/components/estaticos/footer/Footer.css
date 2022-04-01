@@ -1,11 +1,11 @@
 .box1{
-    background-color: #3F51B5; 
+    background-color: rgb(14, 13, 13); 
     height: 120px;
 }
 
 .box2{
-    background-color: #303F9F;
-    height: 60px;
+    background-color: rgb(14, 13, 13);
+    height: 75px;
 }
 .redes{
   font-size: 60px !important; 
