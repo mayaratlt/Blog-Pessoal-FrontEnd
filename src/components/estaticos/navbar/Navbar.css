@@ -1,6 +1,11 @@
+.menu {
+    background-color: #495057 !important;
+    text-decoration: none!important;
+}
 .cursor {
     cursor: pointer;
     color: white;
+    
 }
 .text-decorator-none{
     text-decoration: none;
