@@ -1,4 +1,4 @@
-import { Box, Button, Card, Container, FormControl, FormHelperText, InputLabel, MenuItem, Select, TextField, Typography } from '@material-ui/core';
+import { Button, Card, Container, FormControl, FormHelperText, InputLabel, MenuItem, Select, TextField, Typography } from '@material-ui/core';
 import React, { ChangeEvent, useEffect, useState } from 'react';
 import { useSelector } from 'react-redux';
 import { useHistory, useParams } from 'react-router-dom';
@@ -8,6 +8,7 @@ import { busca, buscaId, post, put } from '../../../services/Service';
 import { TokenState } from '../../../store/tokens/tokensReducer';
 import './CadastroPost.css'
 import { toast } from 'react-toastify';
+import { Box } from '@mui/material';
 
 function CadastroPost() {
 

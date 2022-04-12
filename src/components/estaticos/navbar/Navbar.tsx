@@ -1,5 +1,5 @@
 import React from 'react';
-import { AppBar, Toolbar, Typography, Box } from '@material-ui/core';
+import { AppBar, Toolbar, Typography } from '@material-ui/core';
 import { Link } from 'react-router-dom';
 import {useHistory } from 'react-router-dom'
 import './Navbar.css' 
@@ -8,6 +8,7 @@ import { TokenState } from '../../../store/tokens/tokensReducer';
 import { useDispatch } from "react-redux";
 import { addToken } from '../../../store/tokens/actions';
 import {toast} from 'react-toastify';
+import { Box } from '@mui/material';
 
 function Navbar() {
     const token = useSelector<TokenState, TokenState["tokens"]>(
