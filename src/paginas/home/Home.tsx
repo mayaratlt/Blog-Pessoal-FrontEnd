@@ -8,6 +8,7 @@ import { useSelector } from 'react-redux';
 import { TokenState } from '../../store/tokens/tokensReducer';
 import { Link } from 'react-router-dom';
 import { toast } from 'react-toastify';
+import music9 from "../../img/music9.jpg";
 
 function Home() {
 
@@ -51,7 +52,7 @@ function Home() {
                     </Box>
                 </Grid>
                 <Grid item xs={6} >
-                    <img src="https://github.com/joaocarloslima/portifolio/blob/master/imagens/bg.jpg?raw=true" alt="" width="950px" height="650px" />
+                    <img src={music9} alt="" width="950px" height="655px" />
                 </Grid>
                 <Grid xs={12} className='postagens'>
                     <TabPostagem />

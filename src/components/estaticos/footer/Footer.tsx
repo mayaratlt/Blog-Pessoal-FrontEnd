@@ -18,7 +18,7 @@ function Footer() {
     if(token != ""){
         footerComponent = <Grid container direction="row" justifyContent="center" alignItems="center">
         <Grid  alignItems="center" item xs={12}>
-            <Box style={{ backgroundColor: "#495057", height: "50px"}}>
+            <Box className="corfooter"style={{ height: "50px"}}>
                     <Typography variant="h5" align="center" gutterBottom className='textos'>Siga-nos nas redes sociais </Typography>
                 </Box>
                 <Box className="menu3" display="flex" alignItems="center" justifyContent="center">
@@ -33,7 +33,7 @@ function Footer() {
                     </a>
                 </Box>
             
-            <Box style={{ backgroundColor: "#495057", height: "60px"}}>
+            <Box className="corfooter" style={{ height: "60px"}}>
                 <Box paddingTop={1} className="menu3">
                     <Typography variant="subtitle2" align="center" gutterBottom className='textos' >© 2020 Copyright:</Typography>
                 </Box>

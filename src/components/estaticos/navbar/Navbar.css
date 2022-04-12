@@ -1,12 +1,22 @@
 .menu {
-    background-color: #495057 !important;
+    background: rgb(199, 68, 216);
+    background: radial-gradient(circle, rgb(119, 76, 219) 0%, rgb(76, 51, 134) 4%, rgb(33, 40, 104) 100%) !important;
     text-decoration: none!important;
 }
 .cursor {
     cursor: pointer;
-    color: white;
+    color: black;
     
 }
 .text-decorator-none{
     text-decoration: none;
+}
+
+.estbotao{
+    background-color: rgb(108, 83, 161);
+    border-radius: 3px;
+}
+
+.navblog{
+    background-color: rgb(33, 40, 104);
 }

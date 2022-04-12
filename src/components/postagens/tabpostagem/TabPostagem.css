@@ -1,3 +1,8 @@
 .titulo{
     font-weight: bold;
  }
+
+ .cornav{
+    background: rgb(199, 68, 216);
+    background: radial-gradient(circle, rgb(119, 76, 219) 0%, rgb(76, 51, 134) 4%, rgb(33, 40, 104) 100%);
+ }

@@ -65,10 +65,10 @@ function Login() {
         }
 
     return (
-        <Grid container direction='row' justifyContent='center' alignItems='center'>
+        <Grid  className='imagem'container direction='row' justifyContent='center' alignItems='center' >
             <Grid alignItems='center' xs={6}>
-                <Box paddingX={20}>
-                    <form onSubmit={onSubmit}>
+                <Box  paddingX={20}>
+                    <form className="caixalogin"onSubmit={onSubmit}>
                         <Typography variant='h3' gutterBottom color='textPrimary' component='h3' align='center' className='textos1'>Entrar</Typography>
                         <TextField value={userLogin.usuario} onChange={(e:ChangeEvent<HTMLInputElement>) => updatedModel(e)} id='usuario' label='usuário' variant='outlined' name='usuario' margin='normal' fullWidth />
                         <TextField value={userLogin.senha} onChange={(e:ChangeEvent<HTMLInputElement>) => updatedModel(e)} id='senha' label='senha' variant='outlined' name='senha' margin='normal' type='password'fullWidth />
@@ -77,8 +77,8 @@ function Login() {
                                     Logar
                                 </Button>
                         </Box>
-                    </form>
-                    <Box display='flex' justifyContent='center' marginTop={2}>
+
+                        <Box display='flex' justifyContent='center' marginTop={2}>
                         <Box marginRight={1}>
                             <Typography variant='subtitle1' gutterBottom align='center'>Não tem uma conta?</Typography>
                         </Box>
@@ -87,9 +87,11 @@ function Login() {
                         </Link>
                             
                     </Box>
+                    </form>
+                    
                 </Box>
             </Grid>
-            <Grid xs={6} className='imagem'>
+            <Grid xs={6} >
 
             </Grid>
         </Grid>

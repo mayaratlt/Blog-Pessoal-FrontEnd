@@ -14,33 +14,22 @@ function ListaTema() {
   let history = useHistory();
   const token = useSelector<TokenState, TokenState["tokens"]>(
     (state) => state.tokens
-  );
+  )
 
   useEffect(()=>{
     if(token == ''){
-      toast.error('Você precisa estar logado', {
-        position: "top-right",
-        autoClose: 2000,
-        hideProgressBar: false,
-        closeOnClick: true,
-        pauseOnHover: false,
-        draggable: false,
-        theme: "colored",
-        progress: undefined,
-        });
+      alert("Você precisa estar logado")
       history.push("/login")
     }
   }, [token])
 
-
-  async function getTema(){
-    await busca("/tema", setTemas, {
+  async function getTema() {
+    await busca("/temas", setTemas, {
       headers: {
         'Authorization': token
       }
     })
   }
-
 
   useEffect(()=>{
     getTema()

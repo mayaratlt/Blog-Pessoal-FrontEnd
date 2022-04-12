@@ -3,7 +3,7 @@
  }
  
  .imagem{
-     background-image: url(https://github.com/joaocarloslima/portifolio/blob/master/imagens/bg.jpg?raw=trueS);
+     background-image: url(https://s1.1zoom.me/big0/82/Headphones_DJ_deejay_481474.jpg);
      background-repeat: no-repeat;
      width: 100vh;
      min-height: 100vh;
@@ -14,3 +14,13 @@
  .text-decorator-none{
      text-decoration: none;
  }
+
+ .fundo {
+    background: rgb(199, 68, 216);
+    background: radial-gradient(circle, rgb(119, 76, 219) 0%, rgb(119, 76, 219) 4%, rgb(39, 51, 156) 100%);
+}
+.caixalogin {
+    background-color: white;
+    border-radius: 25px;
+    background: linear-gradient(36deg, #ddd9d990 8%, #acaaaa90 80%)!important;
+}
