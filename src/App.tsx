@@ -22,7 +22,7 @@ function App() {
   return (
     <Provider store={store}>
       <ToastContainer />
-    <Router>
+   <Router>
       <Navbar />
       <Switch>
         <div style={{ minHeight: '100vh' }}>
@@ -72,7 +72,7 @@ function App() {
         </div>
       </Switch>
       <Footer />
-    </Router>
+      </Router>
     </Provider>
   );
 }
